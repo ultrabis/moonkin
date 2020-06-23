@@ -1,0 +1,137 @@
+/*
+body, button, input, select, textarea {
+    font-family: $family-monospace;
+}
+*/
+
+.level {
+    font-family: $family-monospace;
+}
+.field:not(:last-child) {
+   margin-bottom: 1.5em; 
+}
+
+.box, .footer {
+    border: solid 1px $grey-dark;
+    border-radius: 0px;
+}
+
+.level {
+    border: solid 1px $grey-dark;
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer, .section {
+    border-left: none;
+    border-right: none;
+}
+
+.b-tabs .tabs {
+   margin-bottom: 1.5rem; 
+}
+
+.table {
+    background-color: $black-ter;
+    color: $white;
+}
+
+.b-tabs .tab-content {
+   padding: 0; 
+}
+
+.content p:not(:last-child) {
+   // margin-bottom: 0em; 
+}
+a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+.field.is-floating-label .label:before {
+    background-color: $grey-dark;
+}
+
+.label {
+    color: #fff;
+}
+
+.tabs a {
+    color: #fff;
+    border-bottom-color: $grey-dark;
+}
+
+.tabs a:hover {
+    color: #fff;
+    border-bottom-color: $grey-light;
+}
+
+.tabs ul {
+    color: #fff;
+    border-bottom-color: $grey-dark;
+}
+
+.input, .taginput .taginput-container.is-focusable, .textarea, .select select {
+    border-color: $grey;
+}
+
+pre {
+    background-color: $black-ter;
+    color: #fff;
+}
+
+.input {
+    background-color: $grey-darker;
+    color: #fff;
+}
+
+.input checkbox {
+    border: 0px;
+    background-color: $grey-darker;
+    color: #fff;
+}
+
+.select select {
+    //border: 0px;
+    background-color: $grey-darker;
+    color: #fff;
+}
+
+.select select option {
+    background-color: $grey-darker;
+    color: #fff;
+}
+
+.b-checkbox.checkbox .control-label:hover {
+    color: white;
+}
+
+.b-table.tr:hover {
+  background: $black-ter
+}
+
+.b-checkbox.checkbox:hover {
+    color: white;
+}
+
+.th-wrap {
+    color: white;
+}
+
+.modal .modal-content {
+    background: $black-ter;
+    border: solid 1px $grey-dark;
+    border-radius: 0px;
+}
+
+.pagination-previous, .pagination-next, .pagination-link {
+    color: white;
+}
+

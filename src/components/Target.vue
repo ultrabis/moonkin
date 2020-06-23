@@ -1,0 +1,98 @@
+<template>
+  <div class="content">
+    <div class="columns is-mobile">
+      <div class="column">
+        <b-field label="Level" label-position="on-border">
+          <b-select class="is-size-7-mobile" expanded v-model.number="options.target.level">
+            <option value="63">63</option>
+            <option value="62">62</option>
+            <option value="61">61</option>
+            <option value="60">60</option>
+            <option value="59">59</option>
+            <option value="58">58</option>
+            <option value="57">57</option>
+          </b-select>
+        </b-field>
+        <b-field label="Type" label-position="on-border">
+          <b-select class="is-size-7-mobile" expanded v-model.number="options.target.type">
+            <option value="1">Beast</option>
+            <option value="2">Demon</option>
+            <option value="4">Dragonkin</option>
+            <option value="8">Elemental</option>
+            <option value="16">Giant</option>
+            <option value="32">Humanoid</option>
+            <option value="64">Mechanical</option>
+            <option value="128">Undead</option>
+          </b-select>
+        </b-field>
+        <b-field label="Shimmer" label-position="on-border">
+          <b-select class="is-size-7-mobile" expanded v-model.number="options.target.shimmer">
+            <option value="0">None</option>
+            <option value="1">Arcane</option>
+            <option value="2">Fire</option>
+            <option value="3">Frost</option>
+            <option value="4">Nature</option>
+            <option value="5">Shadow</option>
+            <option value="6">Holy</option>
+          </b-select>
+        </b-field>
+        <div class="field">
+          <b-checkbox class="is-size-7-mobile" native-value="StormStrike" v-model="options.target.debuffs">
+            Storm Strike
+          </b-checkbox>
+        </div>
+      </div>
+      <div class="column">
+        <b-field label="Resistance" label-position="on-border">
+          <input class="input is-size-7-mobile" type="number" v-model.number="options.target.spellResistance" />
+        </b-field>
+        <b-field label="Thunderfury" label-position="on-border">
+          <b-select class="is-size-7-mobile" expanded v-model.number="options.target.thunderfury">
+            <option value="0">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </b-select>
+        </b-field>
+        <div class="field">
+          <b-checkbox class="is-size-7-mobile" native-value="CurseOfShadow" v-model="options.target.debuffs">
+            Curse of Shadow
+          </b-checkbox>
+        </div>
+        <div class="field">
+          <b-checkbox class="is-size-7-mobile" native-value="SpellVulnerability" v-model="options.target.debuffs">
+            Spell Vulnerability
+          </b-checkbox>
+        </div>
+      </div>
+    </div>
+    <b-message v-if="showTargetWarning" type="is-warning" has-icon>
+      This app is currently not smart enough to optimize gear around the spell hit cap. You may need to manually select
+      pieces with spell hit and take note of what results in the highest DPS.
+    </b-message>
+  </div>
+</template>
+
+<style scoped></style>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+
+const Props = Vue.extend({
+  props: {
+    options: Object
+  }
+})
+
+@Component
+export default class Target extends Props {
+  get showTargetWarning(): boolean {
+    if (this.options.target.level < 63) {
+      return true
+    }
+    return false
+  }
+}
+</script>
