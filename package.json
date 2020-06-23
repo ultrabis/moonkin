@@ -1,6 +1,6 @@
 {
   "name": "moonkin",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
