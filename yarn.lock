@@ -4295,10 +4295,10 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-libclassic@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/libclassic/-/libclassic-0.2.1.tgz#b09086dca54e30120b4abaf7cd3e11ce0617129d"
-  integrity sha512-QvPYtAkNL4y66cMtLUp/5siMWbF8EfjtrNfYtjFyMNsb+8CYzMJPBdwn747UH1lUalo/oOluViNIsZPcyC4xcA==
+libclassic@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/libclassic/-/libclassic-0.2.4.tgz#75adf24477d71210c8877eebb0d33f5a212d9249"
+  integrity sha512-L5riEbqxWKrVWzzqpAo3o88GsICyWFZc4MzC+X8PXs6eQutxY5BLN2sfdNTHM1vuCuUuXwllwGzMEPzArs//VQ==
   dependencies:
     js-base64 "^2.6.1"
     json-query "^2.2.2"

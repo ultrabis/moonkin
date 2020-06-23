@@ -31,18 +31,8 @@ jobs:
         env:
           CI: true
           
-      - name: Lint
-        run: yarn lint
-        env:
-          CI: true
-          
-      - name: Test
-        run: yarn test --ci --coverage --maxWorkers=2
-        env:
-          CI: true
-
-      - name: Build release
-        run: yarn build:release
+      - name: Build
+        run: yarn build
         env:
           CI: true
 
@@ -51,9 +41,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-
-      #- name: Publish to github pages
-      #  run: yarn publish
-      #  env:
-      #    CI: true
-      #    NODE_AUTH_TOKEN: ${{secrets.npm_token}}
