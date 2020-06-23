@@ -1,7 +1,79 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "411e83fb64573355640a",
+    "revision": "081a33325320998444be",
     "url": "/moonkin/css/app.b4524ff3.css"
+  },
+  {
+    "revision": "3e1e42758cf64a503c25ca319b7f5fe9",
+    "url": "/moonkin/font/.github/ISSUE_TEMPLATE.md"
+  },
+  {
+    "revision": "d67fdfb30796c86d847113fd5a312df8",
+    "url": "/moonkin/font/README.md"
+  },
+  {
+    "revision": "869c58883d0ad260b7f6dd84dfef8f38",
+    "url": "/moonkin/font/css/materialdesignicons.css"
+  },
+  {
+    "revision": "ae9bce8fe97aa36d408fe7bd561ade4e",
+    "url": "/moonkin/font/css/materialdesignicons.min.css"
+  },
+  {
+    "revision": "a1a0ed860f50ffd42ba46d7c10f30255",
+    "url": "/moonkin/font/fonts/materialdesignicons-webfont.eot"
+  },
+  {
+    "revision": "fe1545ef4dd1eef2f1e25528898fc0b3",
+    "url": "/moonkin/font/fonts/materialdesignicons-webfont.ttf"
+  },
+  {
+    "revision": "63d2a5950fc212096c3612f71ae66f64",
+    "url": "/moonkin/font/fonts/materialdesignicons-webfont.woff"
+  },
+  {
+    "revision": "7fb0e3780372f10f804513e2e0c39e78",
+    "url": "/moonkin/font/fonts/materialdesignicons-webfont.woff2"
+  },
+  {
+    "revision": "75fa65f9c421bfc4a11e97cffe7a22fb",
+    "url": "/moonkin/font/license.md"
+  },
+  {
+    "revision": "6111e95d4821aa405f60bbb2e4824fd1",
+    "url": "/moonkin/font/preview.html"
+  },
+  {
+    "revision": "b738e23cc4f90c9b92140967a3a789b4",
+    "url": "/moonkin/font/scss/_animated.scss"
+  },
+  {
+    "revision": "d5cd7afd4f001235207b3275f33aaab9",
+    "url": "/moonkin/font/scss/_core.scss"
+  },
+  {
+    "revision": "c2e4f27534e0f8df00b8febe4d573059",
+    "url": "/moonkin/font/scss/_extras.scss"
+  },
+  {
+    "revision": "da0778e42b1ae535164103757bd88879",
+    "url": "/moonkin/font/scss/_functions.scss"
+  },
+  {
+    "revision": "5c5bc4acb7290b5461e37d55a3661494",
+    "url": "/moonkin/font/scss/_icons.scss"
+  },
+  {
+    "revision": "efefab6d125cf0d8b3890a17c76ef16b",
+    "url": "/moonkin/font/scss/_path.scss"
+  },
+  {
+    "revision": "569964c46ed21e1506b081009f2e4599",
+    "url": "/moonkin/font/scss/_variables.scss"
+  },
+  {
+    "revision": "9efc1719483d0f75034abb738dcfce7a",
+    "url": "/moonkin/font/scss/materialdesignicons.scss"
   },
   {
     "revision": "5954e22f283a44f0395d3e2917c33252",
@@ -1320,12 +1392,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/moonkin/icons/wow-tooltip-border.png"
   },
   {
-    "revision": "139cc63e1a3dee2c1f5eddf96b9e79e4",
+    "revision": "eb6a7d2e993b556b45a790baee39a91f",
     "url": "/moonkin/index.html"
   },
   {
-    "revision": "411e83fb64573355640a",
-    "url": "/moonkin/js/app.dda6898a.js"
+    "revision": "081a33325320998444be",
+    "url": "/moonkin/js/app.bfeeb70e.js"
   },
   {
     "revision": "939494e465fa93d6f5f6",
