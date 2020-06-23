@@ -4,4 +4,4 @@ moonkin calculator for classic wow. built with [libclassic](https://github.com/u
 
 ## status
 
-![build](https://github.com/ultrabis/moonkin/workflows/CI/badge.svg) ![deploy](https://github.com/ultrabis/moonkin/workflows/Publish%20to%20github%20pages/badge.svg)
+![build](https://github.com/ultrabis/moonkin/workflows/build/badge.svg) ![deploy](https://github.com/ultrabis/moonkin/workflows/deploy/badge.svg)
