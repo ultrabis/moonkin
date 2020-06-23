@@ -49,6 +49,12 @@ jobs:
         env:
           CI: true
 
+      - name: Deploy to github pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
       #- name: Publish to github pages
       #  run: yarn publish
       #  env:
