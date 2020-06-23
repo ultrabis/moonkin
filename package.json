@@ -1,10 +1,7 @@
 {
   "name": "moonkin",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "private": false,
-  "vue": {
-    "publicPath": "/moonkin/"
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
