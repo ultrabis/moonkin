@@ -1,24 +1,19 @@
-# moonkin-calc
+# moonkin
 
-## Project setup
-```
-yarn install
-```
+moonkin calculator for classic wow
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## creators
 
-### Compiles and minifies for production
-```
-yarn build
-```
+  - beefbroccoli
+  - keftenk
+  - balor
 
-### Lints and fixes files
-```
-yarn lint
-```
+## contributers
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ - turudd
+
+## thanks 
+
+ - scary pirates guild
+ - classic druid discord balance channel
+ - theorycrafting channels of classic warlock and mage discords
