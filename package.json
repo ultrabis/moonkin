@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build:release": "yarn build && echo TODO",
+    "lint": "vue-cli-service lint",
+    "test": "echo TODO"
   },
   "dependencies": {
     "buefy": "^0.8.20",
