@@ -2,6 +2,8 @@
 
 moonkin calculator for classic wow
 
+![Publish to github pages](https://github.com/ultrabis/moonkin/workflows/Publish%20to%20github%20pages/badge.svg)
+
 ## creators
 
   - beefbroccoli
