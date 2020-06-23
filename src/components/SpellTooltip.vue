@@ -60,7 +60,7 @@ const Props = Vue.extend({
 @Component
 export default class AttributesGeneral extends Props {
   get iconPath() {
-    return `${process.env.BASE_URL}wow-icons/${this.data.spell.icon}`
+    return `${process.env.BASE_URL}icons/${this.data.spell.icon}`
   }
 
   get showPartialResist() {
