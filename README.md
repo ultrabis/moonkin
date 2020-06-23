@@ -1,6 +1,10 @@
-# https://ultrabis.github.io/moonkin/
+# moonkin
 
-built with [libclassic](https://github.com/ultrabis/libclassic)
+moonkin app built with [libclassic](https://github.com/ultrabis/libclassic)
+
+## site
+
+https://ultrabis.github.io/moonkin/
 
 ## status
 
