@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.9bf2df0be9592963e23b3492f492a23e.js"
+  "/moonkin/precache-manifest.25247ac74e72bf7571bdd831a0d2475a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "moonkin"});
