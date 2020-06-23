@@ -1,11 +1,6 @@
-# moonkin
+# https://ultrabis.github.io/moonkin/
 
-moonkin calculator for classic wow. built with [libclassic](https://github.com/ultrabis/libclassic).
-
-## site
-
-https://ultrabis.github.io/moonkin/
-
+built with [libclassic](https://github.com/ultrabis/libclassic)
 
 ## status
 
